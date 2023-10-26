@@ -101,17 +101,11 @@
 
 <body>
     <!-- Header -->
-    <header>
+    <header class="sticky-top">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container">
-                <a href="#" class="navbar-brand">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
-                        class="bi bi-person-workspace" viewBox="0 0 16 16">
-                        <path
-                            d="M4 16s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H4Zm4-5.95a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z" />
-                        <path
-                            d="M2 1a2 2 0 0 0-2 2v9.5A1.5 1.5 0 0 0 1.5 14h.653a5.373 5.373 0 0 1 1.066-2H1V3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v9h-2.219c.554.654.89 1.373 1.066 2h.653a1.5 1.5 0 0 0 1.5-1.5V3a2 2 0 0 0-2-2H2Z" />
-                    </svg>
+                <a href="home.html" class="navbar-brand">
+                    <img src="logo/TRILOGI MART.png" alt="TrilogiMart">
                 </a>
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
@@ -128,11 +122,12 @@
                     </ul>
                 </div>
             </div>
+        </nav>
     </header>
 
     <main>
         <!-- Carousel -->
-        <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+        <!-- <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" aria-label="Slide 1"
                     class=""></button>
@@ -143,12 +138,11 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+                        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
                             width="100%" height="500px" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
                             preserveAspectRatio="xMidYMid slice" focusable="false" role="img">
                             <rect width="100%" height="100%" fill="#777"></rect>
-                        </svg> -->
-                        <!-- <img src="logo/TRILOGI MART.png" alt="test1" -->
+                        </svg>
                         <img src="assets/test2.png" alt="test1"
                         class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="100%"
                         height="200px">
@@ -200,52 +194,18 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
+        </div> -->
+
+        <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light border-bottom">
+            <div class="col-md-5 p-lg-5 mx-auto my-5">
+                <h1 class="display-4 fw-normal">TRILOGI MART</h1>
+            </div>
+            <div class="product-device shadow-sm d-none d-md-block"></div>
+            <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
         </div>
 
         <!-- Features -->
         <div class="container marketing py-3">
-            <!-- <div class="row">
-                <div class="col-lg-4">
-                    <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
-                        xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140"
-                        preserveAspectRatio="xMidYMid slice" focusable="false">
-                        <title>About</title>
-                        <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777"
-                            dy=".3em">140x140</text>
-                    </svg>
-
-                    <h2 class="fw-normal">Heading</h2>
-                    <p>Features one to represent placeholder content for about page.</p>
-                    <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
-                </div>
-                <div class="col-lg-4">
-                    <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
-                        xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140"
-                        preserveAspectRatio="xMidYMid slice" focusable="false">
-                        <title>Why Choose Us</title>
-                        <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777"
-                            dy=".3em">140x140</text>
-                    </svg>
-
-                    <h2 class="fw-normal">Heading</h2>
-                    <p>Features two to represent placeholder content for why choose us page.</p>
-                    <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
-                </div>
-                <div class="col-lg-4">
-                    <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
-                        xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140"
-                        preserveAspectRatio="xMidYMid slice" focusable="false">
-                        <title>Career</title>
-                        <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777"
-                            dy=".3em">140x140</text>
-                    </svg>
-
-                    <h2 class="fw-normal">Heading</h2>
-                    <p>Features three to represent placeholder content for career page.</p>
-                    <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
-                </div>
-            </div> -->
-
             <!-- START THE FEATURETTES -->
             <hr class="featurette-divider">
 
@@ -302,8 +262,6 @@
 
                 </div>
             </div>
-
-            <hr class="featurette-divider">
         </div>
 
         <!-- Footer -->
@@ -374,6 +332,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
         integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
         crossorigin="anonymous"></script>
+
 </body>
 
 </html>
