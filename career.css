@@ -1,0 +1,25 @@
+
+.view{
+    border-radius: 10px;
+    background-color:#ED7D31;
+    color: white;
+    width: 35%;
+}
+
+.edit{
+    border-radius: 10px;
+    background-color: #6499E9;
+    color: white;
+    width: 35%;
+}
+
+.btn.btn-md.btn-outline-secondary.view:hover{
+    background-color: #d1631a;
+}
+
+.btn.btn-md.btn-outline-secondary.edit:hover{
+    background-color: #4478c6;
+}
+
+
+
